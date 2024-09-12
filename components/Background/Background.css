@@ -1,0 +1,16 @@
+/* components/effects/WavyBackground.css */
+
+/* .wavy-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('my-portfolio/public/fondo1.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: -1; /* Asegura que esté detrás de todo el contenido */
+  
+   

@@ -1,0 +1,47 @@
+.projects {
+    padding: 0 8rem;
+    min-height: 80vh;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+     background-color: none; 
+    }
+  
+  
+  @media (max-width: 770px) {
+    .projects {
+      padding: 0 2rem;
+    }
+  }
+  
+  .projects > h2 {
+   
+    font-weight: 100;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 8rem;
+  }
+  
+  @media (max-width: 770px) {
+    .projects-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    h1 {
+font-size: 20px;
+
+
+    }
+  }
+
+  

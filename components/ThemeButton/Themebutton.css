@@ -1,0 +1,141 @@
+/* ThemeButton.css */
+
+:root {
+  --bg-dark: #111111;
+  --bg-light: #ffffff;
+  --text-dark: #ffffff;
+  --text-light: #000000;
+ 
+
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  position: fixed; /* Fija el botón en una posición específica */
+  top: 20px;
+  right: 20px;
+  z-index: 1000; /* Asegúrate de que el botón esté por encima de otros elementos */
+ 
+}
+
+
+
+#theme-toggle img {
+  width: 60px; /* Ajusta según necesites */
+  height: 60px;
+  transition: filter 0.3s ease; /* Transición suave entre los cambios */
+  
+}
+
+.light-mode #theme-toggle img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(80%);
+  /* Aquí puedes ajustar los valores para obtener el color deseado en modo claro */
+}
+
+
+
+
+#theme-toggle svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
+  transition: opacity 0.3s ease;
+}
+
+.light-icon {
+  display: none;
+  
+}
+
+body.light-mode .dark-icon {
+  display: none;
+  
+
+}
+
+body.light-mode .light-icon {
+  display: inline;
+ 
+}
+
+
+
+
+body.dark-mode .light-icon {
+  display: none;
+  
+}
+
+
+/* Colores en modo claro */
+body.light-mode header a,
+body.light-mode header h1,
+body.light-mode .contact-link,
+body.light-mode .typing-effect {
+  color: var(--text-light);
+}
+
+/* Colores en modo oscuro */
+body.dark-mode header a,
+body.dark-mode header h1,
+body.dark-mode .contact-link,
+body.dark-mode .typing-effect {
+  color: var(--text-dark);
+}
+
+
+
+/* Para que la barra divisoria del header se vea oscura en el modo claro */
+
+:root {
+  --divider: rgb(164, 164, 164); /* Valor por defecto */
+}
+
+.light-mode {
+  --divider: black; /* Color de la línea divisoria en modo claro */
+}
+
+.dark-mode {
+  --divider: rgb(164, 164, 164); /* Color de la línea divisoria en modo oscuro */
+}
+
+.header, .nav, .h1, .contact-me {
+  border-bottom: 1px solid var(--divider);
+}
+
+/* Para que el campo tech de las tarjetas se vea oscuro en el modo claro */
+
+
+body.light-mode .project-card > .detail > .tech {
+  color: var(--tech-light); 
+  font-weight: 700;
+}
+
+body.dark-mode .project-card > .detail > .tech {
+  color: var(blue); 
+  font-weight: 700;
+}
+
+
