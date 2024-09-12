@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+
+:root {
+ font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+ line-height: 1.5;
+ font-weight: 400;
+
+
+ color-scheme: light dark;
+ color: rgba(255, 255, 255, 0.87);
+ background-color: #242424;
+
+
+ font-synthesis: none;
+ text-rendering: optimizeLegibility;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+
+
+ --primary-dark: whitesmoke;
+ --bg-dark: #111111;
+ --primary-light: #111111;
+ --bg-light: whitesmoke;
+ --highlight: #6cace4;
+ --divider: rgb(164, 164, 164);
+
+
+}
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Roboto", sans-serif;
+ }
+
+
+li {
+ list-style-type: none;
+}
+
+
+a {
+ text-decoration: none; /* No van a estar subrayados */
+ color: inherit; /* Que mantengan el color que tengan ya */
+}
+
+
+a:hover {
+text-decoration: underline;
+}
+
+
+ul {
+list-style-type: none; /* Los ul no van a tener ningun puntito */
+
+
+
+
+}
+
+
+
+
+html {
+ scroll-behavior: smooth;
+}
+
+
+body {
+ background-color: var(--bg-dark);
+ color: var(--primary-dark);
+ transition: all 0.5s ease-in-out;
+ background-color: rgb(28, 28, 28);
+ }
+
+
+.light {
+ background-color: var(--bg-light);
+ color: var(--primary-light);
+}
+
+
+main {
+ min-height: 80vh;
+}
+
+
+a,
+p {
+ font-size: 1.1rem;
+}
+
+
+
+
+
+
+@keyframes typing {
+ from {
+   width: 0;
+ }
+ to {
+   width: 100%;
+ }
+}
+@keyframes blink {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: rgba(255, 255, 255, 0.75);
+    }
+   }
+   
+   
+   .typing-effect {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem; /* Ajusta según sea necesario */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid rgba(255, 255, 255, 0.75);
+    animation: typing 5s steps(40, end), blink 1s step-end 5s 1 forwards;
+   
+   
+   }
+   
+   
+   /* Animación de escritura */
+   @keyframes typing {
+    from { width: 0; }
+    to { width: 40%; }
+   }
+   
+   
+   /* Animación de parpadeo de la barra */
+   @keyframes blink {
+    50% { border-color: transparent; }
+    100% { border-color: transparent; } /* Desaparece al final */
+   }
+   
+   
+   
+   
+   body {
+    /* background-image: url('/public/modern-minimalist-office-black-white.jpg'); */
+    background-color: #131314;
+     background-color: #131314;
+   background-image: url("https://www.transparenttextures.com/patterns/dark-geometric.png");
+   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-repeat: repeat;
+   
+   
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+ header {
+   flex-direction: column;
+   align-items: center;
+ }
+
+
+ header h1 {
+   font-size: 1.5rem;
+ }
+
+
+ nav {
+   margin-top: 1rem;
+ }
+
+
+ nav a {
+   margin: 0.5rem;
+ }
+
+
+ .typing-effect {
+   font-size: 3rem;
+ }
+
+
+ .description {
+   font-size: 1rem;
+ }
+ 
+
+
+ }
+
+
+@media (max-width: 480px) {
+ header h1 {
+   font-size: 1.2rem;
+ }
+
+
+ nav a {
+   display: block;
+   margin: 0.5rem 0;
+ }
+
+
+ .typing-effect {
+    font-size: 2rem;
+  }
+ 
+ 
+  .description {
+    font-size: 0.9rem;
+  }
+  
+ }
+ 
+ 
+ 

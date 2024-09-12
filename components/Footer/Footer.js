@@ -39,10 +39,10 @@ const template = () => {
     return `
       <h2>Explore My Networks</h2>
       <div>
-        ${Button("/icons/twittericon.png", "Twitter")}
-        ${Button("/icons/icongithub.jpeg", "GitHub")}
-        ${Button("/icons/linkdnicon.jpeg", "LinkedIn")}
-        ${Button("/icons/telegramicon.png", "Telegram")}
+        ${Button("/twittericon.png", "Twitter")}
+        ${Button("/icongithub.jpeg", "GitHub")}
+        ${Button("/linkdnicon.jpeg", "LinkedIn")}
+        ${Button("/telegramicon.png", "Telegram")}
       </div>
       <p>Copyright 2024 - Juan Carlos Dahdah</p>
     `;
