@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "Python Web Scraper",
-    description: "A web scraper built with Python to gather data from various websites and store it in a structured format.",
-    image: "https://hasdata.com/assets/cache_image/blog_img/web-scraping-with-python.14c36f6b.jpg",  // Cambia esta URL si tienes una imagen específica
-    tech: ["Python", "BeautifulSoup", "Requests"],
-    github: "https://github.com/yourusername/python-web-scraper",
-    link: "https://static.zenrows.com/content/web_scraping_project_ideas_103248bbdb.png",
+    title: "Mercedes-Benz Concept Car",
+    description: "Aplicación web desarrollada con HTML, CSS y JavaScript que implementa componentes modulares, utilidades y recursos estáticos para una interfaz moderna e interactiva.",
+    image: "public/portadaproyecto.jpg",  
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/juancarlosdhhr/Proyecto5final.git",
+    link: "https://mercedes-concept.netlify.app/",
   },
   {
     title: "React E-commerce App",
