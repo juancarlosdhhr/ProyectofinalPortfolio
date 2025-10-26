@@ -3,22 +3,22 @@ export const projects = [
     title: "Mercedes-Benz Concept Car",
     description: "Aplicación web desarrollada con HTML, CSS y JavaScript que implementa componentes modulares, utilidades y recursos estáticos para una interfaz moderna e interactiva.",
     image: "public/portadaproyecto.jpg",  
-    tech: ["HTML", "CSS", "JavaScript"],
+    tech: ["HTML", "CSS", "JavaScript", "Vite"],
     github: "https://github.com/juancarlosdhhr/Proyecto5final.git",
     link: "https://mercedes-concept.netlify.app/",
   },
   {
-    title: "React E-commerce App",
-    description: "A fully functional e-commerce application built with React to manage products, users, and orders.",
-    image: "https://blog.logrocket.com/wp-content/uploads/2024/05/top-frontend-tools-implementing-e-commerce-search-functionality.png",  // Cambia esta URL si tienes una imagen específica
+    title: "Movie Search App",
+    description: "A dynamic movie search application built with HTML, CSS, JavaScript, and Vite. It connects to a public movie API to display film details and ratings on a 1-to-5 star scale.",
+    image: "public/portadawebcinema.jpg",  // 
     tech: ["React", "JavaScript", "Node.js"],
-    github: "https://github.com/yourusername/react-ecommerce-app",
-    link: "https://reactjs.org/",
+    github: "https://github.com/juancarlosdhhr/Proyecto4.git",
+    link: "https://cinema-project4.netlify.app/",
   },
   {
     title: "JavaScript Game",
     description: "A browser-based game developed using vanilla JavaScript, with interactive gameplay and smooth animations.",
-    image: "https://miro.medium.com/v2/resize:fit:1200/1*7CwIiXUArsTZKsyfA0R2jg.png",  // Cambia esta URL si tienes una imagen específica
+    image: "https://miro.medium.com/v2/resize:fit:1200/1*7CwIiXUArsTZKsyfA0R2jg.png",  
     tech: ["JavaScript", "HTML5", "CSS3"],
     github: "https://github.com/yourusername/javascript-game",
     link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -26,15 +26,14 @@ export const projects = [
   {
     title: "Node.js REST API",
     description: "A RESTful API developed with Node.js and Express to handle CRUD operations and manage a database.",
-    image: "https://massivepixel.io/wp-content/uploads/2022/02/how-to-create-nodejs-rest-api.png",  // Cambia esta URL si tienes una imagen específica
-    tech: ["Node.js", "Express", "MongoDB"],
+    image: "https://massivepixel.io/wp-content/uploads/2022/02/how-to-create-nodejs-rest-api.png",  
     github: "https://github.com/yourusername/nodejs-rest-api",
     link: "https://expressjs.com/",
   },
   {
     title: "Java Spring Boot Application",
     description: "A backend application built with Java and Spring Boot for handling business logic and data persistence.",
-    image: "https://cdn.sayonetech.com/media/zinnia/Java_EE_vs_Spring_Boot_What_are_the_differences.jpg",  // Cambia esta URL si tienes una imagen específica
+    image: "https://cdn.sayonetech.com/media/zinnia/Java_EE_vs_Spring_Boot_What_are_the_differences.jpg", 
     tech: ["Java", "Spring Boot", "MySQL"],
     github: "https://github.com/yourusername/java-spring-boot-app",
     link: "https://spring.io/projects/spring-boot",
@@ -42,7 +41,7 @@ export const projects = [
   {
     title: "Django Blog",
     description: "A blog application developed using Django with user authentication, post management, and commenting features.",
-    image: "https://www.skysilk.com/blog/wp-content/uploads/elementor/thumbs/python-django-logo-qq73fzq30o2u23vhj1a8fvngito7gdsndbtfkrgcvk.jpg",  // Cambia esta URL si tienes una imagen específica
+    image: "https://www.skysilk.com/blog/wp-content/uploads/elementor/thumbs/python-django-logo-qq73fzq30o2u23vhj1a8fvngito7gdsndbtfkrgcvk.jpg",  
     tech: ["Python", "Django", "SQLite"],
     github: "https://github.com/yourusername/django-blog",
     link: "https://www.djangoproject.com/",
@@ -50,7 +49,7 @@ export const projects = [
   {
     title: "Swift iOS App",
     description: "A mobile application for iOS built with Swift, showcasing interactive UI components and data handling.",
-    image: "https://www.webskittersacademy.in/wp-content/uploads/2022/05/academy-blog-swift2-825x550.jpg",  // Cambia esta URL si tienes una imagen específica
+    image: "https://www.webskittersacademy.in/wp-content/uploads/2022/05/academy-blog-swift2-825x550.jpg",  
     tech: ["Swift", "Xcode", "UIKit"],
     github: "https://github.com/yourusername/swift-ios-app",
     link: "https://developer.apple.com/swift/",
@@ -58,7 +57,7 @@ export const projects = [
   {
     title: "PHP Content Management System",
     description: "A content management system (CMS) built with PHP for managing and displaying web content dynamically.",
-    image: "https://miro.medium.com/v2/resize:fit:800/1*PadmPKuxIp-BRiUTbyL6SA.png",  // Cambia esta URL si tienes una imagen específica
+    image: "https://miro.medium.com/v2/resize:fit:800/1*PadmPKuxIp-BRiUTbyL6SA.png",  
     tech: ["PHP", "MySQL", "HTML"],
     github: "https://github.com/yourusername/php-cms",
     link: "https://www.php.net/",
