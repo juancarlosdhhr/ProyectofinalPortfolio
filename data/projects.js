@@ -9,11 +9,20 @@ export const projects = [
   },
   {
     title: "Movie Search App",
-    description: "A dynamic movie search application built with HTML, CSS, JavaScript, and Vite. It connects to a public movie API to display film details and ratings on a 1-to-5 star scale.",
-    image: "public/portadawebcinema.jpg",  // 
-    tech: ["React", "JavaScript", "Node.js"],
+    description: "A responsive Pinterest-style photo gallery built with HTML, CSS, JavaScript, and Vite. It connects to a public photo API to dynamically display and explore high-quality images through an intuitive interface with multiple search filters and categories.",
+    image: "public/portadawebcinema.jpg",  
+    tech: ["HTML", "CSS", "JavaScript", "Vite"],
     github: "https://github.com/juancarlosdhhr/Proyecto4.git",
     link: "https://cinema-project4.netlify.app/",
+  },
+
+  {
+    title: "Pinterest Clone App",
+    description: "A dynamic movie search application built with HTML, CSS, JavaScript, and Vite. It connects to a public movie API to display film details and ratings on a 1-to-5 star scale.",
+    image: "public/portadapinterest.jpg",  
+    tech: ["HTML", "CSS", "JavaScript", "Vite"],
+    github: "https://github.com/juancarlosdhhr/Proyecto3.git",
+    link: "https://pinterest-proyecto3.netlify.app/",
   },
   {
     title: "JavaScript Game",
